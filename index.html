@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <title>Voxel Inc.</title>
+    <link rel="icon" href="img/icon.png">
+    <meta content="Voxel Inc." property="og:title" />
+    <meta content="Voxel Inc. - creators of VoxelClient." property="og:description" />
+    <meta content="https://voxel-inc.github.io" property="og:url" />
+    <meta content="https://voxel-inc.github.io/img/icon.png" property="og:image" />
+    <meta content="#9400d3" data-react-helmet="true" name="theme-color" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <style>
+        ::-webkit-scrollbar {
+            width: 3px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background-color: #3c3c3c;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background-color: #9d00ef;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body class="overflow-x-hidden">
+<div id="root" class="min-vh-100 min-vw-100 flex flex-column bg-dark text-light">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/icon.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+            </a>
+            <a class="navbar-brand" href="#">Voxel Inc.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pages/team.html">Our Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/Voxel-Inc/VoxelClient/releases/latest">Download</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Discord</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="alert alert-warning alert-dismissible fade show w-25 text-center position-absolute start-50 translate-middle" role="alert" style="margin-top: 5rem !important;">
+        <strong>Warning!</strong> The client is in beta phase, if you find any bugs report them on our <a href="https://github.com/Voxel-Inc/VoxelClient">Github repository</a>.
+    </div>
+
+    <div class="card text-bg-dark w-50" style="max-width: 50rem; margin-top: 250px; margin-left: auto; margin-right: auto;">
+        <div class="card-header">Features</div>
+        <div class="card-body">
+            <p class="card-text">VoxelClient has many features, like exploits and some utility commands. List of some of them:</p>
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">Many exploits</li>
+            <li class="list-group-item">Very customizable</li>
+            <li class="list-group-item">Private mode (hides MOTD of servers and censors IP in name)</li>
+            <li class="list-group-item">Always on latest version</li>
+            <li class="list-group-item">Custom RPC</li>
+            <li class="list-group-item">Free, open source</li>
+        </ul>
+    </div>
+
+    <footer class="navbar navbar-expand-lg bg-body-tertiary border-top align-content-center text-center position-fixed" style="margin-top: 100% !important; bottom: 0; width: 100%;">
+        <p class="text-center" style="margin-left: auto !important; margin-right: auto !important;">Voxel Inc. © 2025</p>
+    </footer>
+</div>
+</body>
+</html>
